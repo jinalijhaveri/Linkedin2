@@ -13,7 +13,7 @@ var $credentials = {
 }
 
 function getAWS_SDK(){
-	AWS.config.loadFromPath('./public/access.json');
+//	AWS.config.loadFromPath('./public/access.json');
 
 	var aws = new AWS.DynamoDB();
 	
